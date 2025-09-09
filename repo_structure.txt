@@ -1,0 +1,47 @@
+.
+├── 0-how-to
+│   ├── cheatsheets
+│   │   ├── filesystem.md
+│   │   ├── powershell.md
+│   │   ├── README.md
+│   │   └── session-workflow.md
+│   └── README.md
+├── 1-inputs
+│   ├── 11-knowledge-base
+│   │   ├── 250808_taps_project_charter_v_1.3.docx
+│   │   ├── 250811_approved_taps_project_charter_v_1.3.pdf
+│   │   └── README.md
+│   └── 12-analytical-engine
+│       ├── README.md
+│       ├── schedule.csv
+│       └── staff_time.csv
+├── 2-processes
+│   ├── 21-production-hub
+│   │   ├── notes
+│   │   │   ├── 2025-08-26_repo-setup.md
+│   │   │   ├── 2025-08-27_taps-dev-kickoff-prep.md
+│   │   │   └── 2025-09-08-taps-dev-kickoff-prep-cont.md
+│   │   └── README.md
+│   ├── 22-governance
+│   │   └── README.md
+│   ├── 23-decision-log
+│   │   ├── decisions.csv
+│   │   └── README.md
+│   ├── 24-risk-register
+│   │   ├── README.md
+│   │   └── risk_log.csv
+│   └── 25-roadmap
+│       └── README.md
+├── 3-outputs
+│   ├── 31-product-store
+│   │   └── README.md
+│   ├── 32-user-engagement
+│   │   └── README.md
+│   └── 33-templates
+│       └── README.md
+├── 4-memory
+│   └── 41-archive
+│       └── README.md
+├── README.md
+├── repo_structure.txt
+└── taps-proj-mgmt.Rproj

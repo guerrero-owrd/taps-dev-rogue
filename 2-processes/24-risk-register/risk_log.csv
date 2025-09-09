@@ -1,0 +1,5 @@
+﻿risk_id,statement,trigger,probability,impact,mitigation,owner,status,next_review
+PM-001,SharePoint path length or sync conflicts,Deep nested paths; special chars,3,4,Keep names short/ASCII; avoid huge caches; periodic sync checks,FJG,open,10/1/2025
+PM-002,Decisions buried in notes not logs,Busy weeks; habit drift,3,5,Use decisions.csv every session; add note block linking to log,FJG,open,9/15/2025
+PM-003,Template sprawl reduces consistency,Ad-hoc docs in drafts,2,3,"Centralize in 3-outputs/33-templates; copy, don't edit originals",FJG,monitoring,9/15/2025
+PM-004,Efficiency claims are not evidenced by data,Busy cycles skip logging,3,4,Record assisted vs manual_est per task in staff_time.csv; review quarterly,FJG,open,2025-10-01
