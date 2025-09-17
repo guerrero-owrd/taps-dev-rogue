@@ -2,4 +2,17 @@
 PM-001,SharePoint path length or sync conflicts,Deep nested paths; special chars,3,4,Keep names short/ASCII; avoid huge caches; periodic sync checks,FJG,open,10/1/2025
 PM-002,Decisions buried in notes not logs,Busy weeks; habit drift,3,5,Use decisions.csv every session; add note block linking to log,FJG,open,9/15/2025
 PM-003,Template sprawl reduces consistency,Ad-hoc docs in drafts,2,3,"Centralize in 3-outputs/33-templates; copy, don't edit originals",FJG,monitoring,9/15/2025
-PM-004,Efficiency claims are not evidenced by data,Busy cycles skip logging,3,4,Record assisted vs manual_est per task in staff_time.csv; review quarterly,FJG,open,2025-10-01
+PM-004,Efficiency claims are not evidenced by data,Busy cycles skip logging,3,4,Record assisted vs manual_est per task in staff_time.csv; review quarterly,FJG,open,10/1/2025
+PM-005,Limited IT bandwidth for support in Q4-2025,High-level IT prioritization,5,5,Break down support into ticketed task,FJG,open ,10/30/2025
+PM-006,Delay in automation and statewide datasets,Lack of IT-TSD Support for Snapshots,5,5,Shifting from prelaunch protocol to single basin deployment,FJG,open,9/30/2025
+PM-007,Time/capacity estimates for snapshots being speculative,Shifting from prelaunch protocol to single basin deployment,5,5,Break the snapshot design into datasets and identify alternative open storage options,FJG,open,11/15/2025
+PM-008,,,,,,,,
+PM-009,,,,,,,,
+PM-010,,,,,,,,
+PM-011,,,,,,,,
+PM-012,,,,,,,,
+PM-013,,,,,,,,
+PM-014,,,,,,,,
+PM-015,,,,,,,,
+PM-016,,,,,,,,
+PM-017,,,,,,,,
