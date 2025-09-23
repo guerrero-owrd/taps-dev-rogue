@@ -1,2 +1,44 @@
-*.pdf filter=lfs diff=lfs merge=lfs -text
+# --- Documents you don't diff anyway
+*.pdf  filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# --- Graphics & renders (plots, maps, exports)
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tif  filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.svg  filter=lfs diff=lfs merge=lfs -text
+
+# --- Data binaries (keep texty stuff like .csv OUT of LFS)
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.feather filter=lfs diff=lfs merge=lfs -text
+*.rds     filter=lfs diff=lfs merge=lfs -text
+*.RData   filter=lfs diff=lfs merge=lfs -text
+
+# --- Geospatial (prefer GeoPackage over 8-piece shapefile chaos)
+*.gpkg filter=lfs diff=lfs merge=lfs -text
+# If you must ship shapefiles, zip them and track the zip
+*.zip  filter=lfs diff=lfs merge=lfs -text
+
+# --- Notebooks (optional; they’re noisy diffs)
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+
+# --- Archives/bundles produced by builds
+*.tar   filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.7z    filter=lfs diff=lfs merge=lfs -text
+
+# --- Explicitly DO NOT LFS: code & text
+*.R     -text
+*.py    -text
+*.qmd   -text
+*.md    -text
+*.csv   -text
+*.tsv   -text
+*.yml   -text
+*.yaml  -text
+*.json  -text
+

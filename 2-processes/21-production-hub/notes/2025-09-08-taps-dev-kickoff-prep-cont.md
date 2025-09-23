@@ -18,19 +18,16 @@
 ### Immediate Implications
 
 - **Partial IT support via tickets:**  
-
   - Repo permissions, GitHub setup, and other low-touch items remain possible.  
   - DBA/DevOps-heavy work (snapshot builds, schema-level queries, containerization) deferred until 2026.
 
 - **Mock-up Rogue Pilot (manual path):**  
-
   - Data can be manually pulled from OWRD public databases (WRIS, SWARS, GWIS) to assemble an *illustrative-only* pilot.  
   - This fulfills IT's request for a demo artifact and provides a practical test of whether statewide snapshots are essential.
   - Visual resolution for results display would be HUC-10  
   - Must be clearly bannered: **Illustrative, not reproducible - not for enforcement**
 
 - **Reframed risk:**  
-
   - Risk is *limited bandwidth* rather than *total IT blackout*.  
   - Main consequence is delay to automation and statewide datasets, not to PCI-led development (repo scaffolding, PA-Slicer, caveats, manual pilot).
   - **Pivot**: Wihtout IT-TSD snapshots, we shift from pre-launch protocol to single-basin **Rogue pilot** at HUC-10.

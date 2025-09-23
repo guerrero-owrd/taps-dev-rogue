@@ -1,6 +1,7 @@
 ﻿# 23-decision-log
 
 **Purpose:** living record of approvals, scope changes, and leadership guidance.
+**Location:** 2-processes/23-decision-log/ in taps-proj-mgmt folder (local)
 
 ## Active decision requests to track (seed list)
 - Confirm scope firewall (OWRD data + public feeds; no new/dynamic data).

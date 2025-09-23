@@ -1,6 +1,7 @@
 ﻿# 24-risk-register
 
 **Purpose:** track risks, triggers, probability/impact, mitigations, owners, and review cadence.
+**Location:** 2-processes/24-risk-register/ in taps-proj-mgmt folder (local)
 
 ## Standing risks (seed list)
 - **TSD capacity overrun** → Mitigate with workload reviews; adjust resource allocation.
@@ -10,6 +11,7 @@
 - **Ambitious timeline** → Track staff time; buffer periods; adjust milestones.
 
 ## Minimal fields (when you create the CSV)
-isk_id, statement, trigger, probability(1–5), impact(1–5), mitigation, owner, status, next_review  
+
+isk_id, statement, trigger, probability(1–5), impact(1–5), mitigation, owner, status, next_review  
 Review quarterly; update 
 ext_review.

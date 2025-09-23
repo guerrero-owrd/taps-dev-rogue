@@ -1,29 +1,36 @@
-# Meeting Notes — TAPs-Dev Kickoff Prep
+# Meeting Notes-TAPs-Dev Kickoff Prep
+
 **Date:** 2025-09-16  
 **Attendees:** FJG (+ AI assistant)  
 **Session length:** 2.5 hours
 
 ## Context refresher
+
 - Last week TAPs was deprioritized due to higher-urgency work; carry-overs remain open.
 - IT TAPs-wide support remains reduced until **Q1-2026**; low-touch ticketed items only.
 
 ## Critical Update (standing, from 2025-08-27)
+
 - Partial IT via tickets is possible (repo permissions, GH setup).  
 - DBA/DevOps-heavy work (snapshots, schema queries, containerization) is deferred to 2026.
-- Manual Rogue Pilot remains illustrative-only; clearly bannered and with non-reproducibility note about data sources. 
+- Manual Rogue Pilot remains illustrative-only; clearly bannered and with non-reproducibility note about data sources.
 
 ## Additional Update (from 2025-09-16)
-- Assessing the possibility of generating snapshots and store outputs in Zenodo or other open-data archives for URL access. 
-- Decision on basin for code development and deployment pending until Sept. 30th, 2025
+
+- Assessing the possibility of generating snapshots and store outputs in Zenodo or other open-data archives for URL access.
+- Decision on basin for code development and deployment pending until **Sept. 30th, 2025**
 
 ### Immediate Implications
-- **Partial IT support via tickets:**  
+
+- **Partial IT support via tickets:**
+  - Zenodo or other open data storage alternatives need to be identified.
+  - Requires authorization by IT and other involved.
   - Repo permissions, GitHub setup, and other low-touch items remain possible.  
   - DBA/DevOps-heavy work (snapshot builds, schema-level queries, containerization) deferred until 2026.
 
 - **Mock-up Rogue Pilot (manual path):**  
   - Data can be manually pulled from OWRD public databases (WRIS, SWARS, GWIS) to assemble an *illustrative-only* pilot.  
-  - This fulfills IT’s request for a demo artifact and provides a practical test of whether statewide snapshots are essential.
+  - This fulfills IT's request for a demo artifact and provides a practical test of whether statewide snapshots are essential.
   - Visual resolution for results display would be HUC-10  
   - Must be clearly bannered: **“Illustrative, not reproducible — not for enforcement.”**
 
@@ -36,7 +43,6 @@
   inputs externally (e.g., Zenodo/OSF) with non-regulatory banners and a **source non-reproducibility** note. 
 
 ### Action Flags
-- Adjust plans for the immediately following meetings for TAPs development, including today's meeting.
 - Continue with repo scaffolding, PA-Slicer, and caveat cheat-sheet as planned.
 - Scope and label the manual Rogue Pilot deliverable to manage expectations.
 - Update roadmap milestones to reflect delayed automation, but keep interim PCI-only outputs active.

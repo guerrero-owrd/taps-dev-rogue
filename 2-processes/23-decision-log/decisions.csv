@@ -1,6 +1,0 @@
-﻿"decision_id","date","topic","decision","owner","rationale","follow_up_due","status","link"
-"D-20250826-01","2025-08-26","Folder architecture","Adopt IPOM with numeric subfolders","FJG","Improves navigation and repeatability","","approved",""
-"D-20250826-02","2025-08-26","Naming policy","Skip 'how-to-' in filenames under 0-how-to","FJG","Folder context already implies purpose; shorter names reduce sync pain","","approved","0-how-to/README.md"
-"D-20250826-03","2025-08-26","R project hygiene","Save history; do not save/restore .RData","FJG","Avoid zombie objects; keep useful command trail","","approved",""
-"D-20250826-04","2025-08-26","Tooling approach","Use PowerShell for scaffolding; defer renv/Quarto","FJG","Start simple; add automation when needed","","approved","2-processes/21-production-hub/notes/2025-08-26_repo-setup.md"
-D-20250826-05,2025-08-26,Efficiency tracking,Log manual non-AI time estimates per task alongside assisted time,FJG,Enable efficiency and financial analysis by task and rate,,approved,1-inputs/12-analytical-engine/staff_time.csv
