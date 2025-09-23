@@ -1,20 +1,43 @@
-﻿# TAPs Project Management (IPOM)
+﻿# TAPs Development – Rogue Basin Pilot
 
-Ordered layout: **1-Inputs - 2-Processes - 3-Outputs - 4-Memory**.
-The goal is to keep project management agile, reproducible, and readable for both SharePoint and GitHub contexts.  
-TAPs are **screening-level, non-regulatory** literacy tools. Enforcement remains with WR staff; every figure carries a "Not for enforcement" banner.
+This repository is the **development spine** for TAPs (Technical Assistance Packages).  
+It contains reproducible code, schema mock-ups, and illustrative outputs for the Rogue pilot (and future basins once approved).  
 
-## What this repo is for
+TAPs are **screening-level, non-regulatory** literacy tools.  
+Enforcement and permitting remain with Watermasters and WR staff; every figure carries a **“Not for enforcement”** banner.
 
-- Management tool for the Working group.
-- Supports the building of proactive Technical Assistance Packages (TAPs) that provide standardized snapshots and plain-language interpretations.
-- Keep governance visible (roles, decisions, risks) and separate **drafts** from **finals**.
+---
 
-## Top-level folders
+## Purpose of this repo
 
-- **1-inputs**: charter, rules insights, and the simple tables that drive oversight (schedule, RACI, staff-time).
-- **2-processes**: working docs, governance, decision log, risk register, roadmap.
-- **3-outputs**: final deliverables, engagement copies with comments, and canonical templates.
-- **4-memory**: archive of superseded material.
+- Stand up **R/Python/Quarto code** to generate reproducible TAPs.  
+- Host **schema mock-ups, data dictionaries, and caveats** that define the reproducible pipeline.  
+- Provide **templates, charts, and draft TAP outputs** for public review and QA.  
+- Keep technical work clearly separated from sensitive management files (those live in `taps-proj-mgmt`, not here).
 
-**Quarterly hygiene**: update risks/decisions; archive stale drafts; sync roadmap to actuals.
+---
+
+## Top-level folders (IPOM layout)
+
+- **0-how-to**: cheatsheets for repo setup, GitHub, LFS, and workflow notes.  
+- **1-inputs**: charter excerpts, rules insights, and analytical-engine code (schema mockups, scripts).  
+- **2-processes**: production-hub scripts, technical notes, governance stubs, roadmap.  
+- **3-outputs**: reproducible TAP deliverables, canonical templates, and user-facing graphics.  
+- **4-memory**: archive of superseded builds and draft outputs.
+
+---
+
+## Repo hygiene
+
+- **Code & schema**: live here, version-controlled.  
+- **Staff time, decision logs, approvals**: live in the **mgmt** repo only.  
+- **Quarterly**: run schema checks, refresh pipeline scripts, archive stale outputs.  
+- **LFS**: large artifacts (PDFs, maps, images, binaries) are tracked with Git LFS.
+
+---
+
+## Notes
+
+- Pilot basin: **Rogue River** (2025–26).  
+- Snapshot cadence and staff time are approved in mgmt; this repo just executes.  
+- Outputs are illustrative; final authority rests with OWRD systems and Watermasters.
