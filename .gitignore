@@ -24,5 +24,8 @@ _cache/
 # Inputs handling
 # Ignore bulky raw data dumps, but keep reproducible code + docs
 1-inputs/**
+!1-inputs/
+!1-inputs/11-knowledge-base/
 !1-inputs/11-knowledge-base/**
+!1-inputs/12-analytical-engine/
 !1-inputs/12-analytical-engine/**
