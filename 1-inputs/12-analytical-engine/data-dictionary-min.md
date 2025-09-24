@@ -6,7 +6,7 @@
 | date             | date    | SW daily index (YYYY-MM-DD)                    |
 | year             | int     | WR annual rollups                              |
 | quarter          | string  | GW quarter (YYYY-Qn)                           |
-| q_cms            | numeric | Discharge (m³/s)                               |
+| q_cms            | numeric | Discharge (m^3/s)                              |
 | source           | enum    | USGS or NWM                                    |
 | gage_type        | enum    | observed or modeled                            |
 | coverage_flag    | enum    | none, partial, full (SW representativeness)    |

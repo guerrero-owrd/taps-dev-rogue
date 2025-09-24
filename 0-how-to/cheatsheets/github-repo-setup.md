@@ -8,6 +8,7 @@
    - Set up `.gitignore`, LFS, and tree snapshot
 
 3. After structure changes, re-run this to update `repo_structure.txt`:
+
 ```r
 fs::dir_tree('.', recurse = TRUE) |> capture.output(file = 'repo_structure.txt')
 ```

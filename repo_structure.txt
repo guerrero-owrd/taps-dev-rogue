@@ -1,31 +1,33 @@
-taps-dev-rogue/
+.
 ├── 0-how-to
 │   ├── cheatsheets
 │   │   ├── bootstrap_repo.R
 │   │   ├── filesystem.md
+│   │   ├── git-lfs-cheatsheet.md
 │   │   ├── github-repo-setup.md
 │   │   ├── maintain-core-files.md
 │   │   ├── powershell.md
 │   │   ├── README.md
-│   │   └── session-workflow.md
+│   │   ├── session-workflow.md
+│   │   ├── snapshot-caveat.md
+│   │   └── taps_ai_assistance_dev_guidance.md
 │   └── README.md
 ├── 1-inputs
 │   ├── 11-knowledge-base
 │   │   ├── pbp_key_definitions.md
 │   │   ├── pbp_rules_insights.md
+│   │   ├── README.md
 │   │   ├── taps_charter_core_framework.md
 │   │   ├── taps_charter_decision_requests.md
 │   │   ├── taps_charter_governance_roles.md
 │   │   ├── taps_charter_proposal_appendices.md
 │   │   ├── taps_charter_risks_mitigations.md
-│   │   ├── taps_charter_roadmap_milestones.md
-│   │   └── README.md
+│   │   └── taps_charter_roadmap_milestones.md
 │   └── 12-analytical-engine
-│       ├── data_dictionary_min.md
+│       ├── data-dictionary-min.md
 │       ├── get_usgs_daily_flow_or.R
-│       ├── schema_mockups_v0_1.md
 │       ├── README.md
-│       └── (future reproducible code + scripts)
+│       └── schema-mockups-v0_1.md
 ├── 2-processes
 │   ├── 21-production-hub
 │   │   ├── notes
@@ -33,16 +35,16 @@ taps-dev-rogue/
 │   │   │   ├── 2025-08-27_taps-dev-kickoff-prep.md
 │   │   │   ├── 2025-09-08-taps-dev-kickoff-prep-cont.md
 │   │   │   └── 2025-09-16-taps-dev-kickoff-prep-cont.md
-│   │   ├── scripts
-│   │   │   ├── generate-core-files.R
-│   │   │   └── manifest-generation.R
-│   │   └── README.md
+│   │   ├── README.md
+│   │   └── scripts
+│   │       ├── generate-core-files.R
+│   │       └── manifest-generation.R
 │   ├── 22-governance
 │   │   └── README.md
 │   ├── 23-decision-log
-│   │   └── README.md (points back to mgmt)
+│   │   └── README.md
 │   ├── 24-risk-register
-│   │   └── README.md (points back to mgmt)
+│   │   └── README.md
 │   └── 25-roadmap
 │       └── README.md
 ├── 3-outputs
@@ -51,12 +53,13 @@ taps-dev-rogue/
 │   ├── 32-user-engagement
 │   │   └── README.md
 │   └── 33-templates
+│       ├── banner-provenance.md
 │       ├── banner_provenance.md
 │       └── README.md
 ├── 4-memory
 │   └── 41-archive
 │       └── README.md
+├── contributing.md
 ├── README.md
 ├── repo_structure.txt
 └── taps-dev-rogue.Rproj
-

@@ -1,7 +1,8 @@
-# How To Set Up a Reproducible Repository Structure for TAPs pilot
+# How To Set Up a Reproducible Repository Structure for TAPs Implementation and Deployment
+# One time only - Leveraging existing file structure from an original repo
 # ---------- EDIT THESE ----------
-source_dir <- "C:/Users/guerrefj/Oregon/WRD - PCI - Technical Assistance Packages/taps-proj-mgmt"  # where the tree you showed lives
-target_dir <- "C:/Users/guerrefj/Documents/GitHub/taps-dev-rogue"  # or .../taps-dev-rogue
+source_dir <- "C:/Users/Username/.../taps-proj-mgmt"  # where the tree you showed lives
+target_dir <- "C:/Users/Username/.../GitHub/taps-dev-rogue"  # or .../taps-dev-rogue
 gh_org_or_user <- "guerrero-owrd"          # GitHub org or your username
 # --------------------------------
 

@@ -1,10 +1,16 @@
-# How to Navigate and Log Activities in TAPs-PM
+# How to Navigate and Log Activities in TAPs-Dev
 
 This cheat-sheet explains what each folder is for and how to record activities consistently.
 
 ---
 
+## 0-how-to
+
+-**cheatsheets**
+Stores core instructions about "how-to" create repo settings in a reproducible way, like `filesystem.md`, `github-repo-setup.md`, among others.
+
 ## 1-inputs
+
 - **11-knowledge-base**  
   Store reference docs: project charter, appendices, PBP rule insights.  
   *Tip:* add a one-line context note when adding a file (why it matters).
@@ -15,6 +21,7 @@ This cheat-sheet explains what each folder is for and how to record activities c
 ---
 
 ## 2-processes
+
 - **21-production-hub**  
   Drafts, meeting notes, in-progress reports.  
   *Log here:* daily work products. Move finals to outputs.
@@ -34,6 +41,7 @@ This cheat-sheet explains what each folder is for and how to record activities c
 ---
 
 ## 3-outputs
+
 - **31-product-store**  
   Final, approved artifacts. PDFs/HTML only.  
   *Log here:* version, date, and changelog.
@@ -47,6 +55,7 @@ This cheat-sheet explains what each folder is for and how to record activities c
 ---
 
 ## 4-memory
+
 - **41-archive**  
   Superseded material.  
   *When archiving:* add a note explaining what superseded the file.
@@ -54,6 +63,7 @@ This cheat-sheet explains what each folder is for and how to record activities c
 ---
 
 ## Logging Conventions
+
 - **Date format:** YYYY-MM-DD (e.g., 2025-08-26)  
 - **Meeting notes filename:** `YYYY-MM-DD_topic.md`  
 - **Decision status:** proposed | approved | declined | superseded | closed  
