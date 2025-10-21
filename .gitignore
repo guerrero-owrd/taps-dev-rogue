@@ -28,10 +28,14 @@ _cache/
 !2-processes/21-production-hub/reports/README.md
 
 # Inputs handling
-# Ignore bulky raw data dumps, but keep reproducible code + docs
+# Ignore bulky raw data dumps or heavy documents, but keep reproducible 
+# code + .md files
 1-inputs/**
 !1-inputs/
 !1-inputs/11-knowledge-base/
 !1-inputs/11-knowledge-base/**
 !1-inputs/12-analytical-engine/
 !1-inputs/12-analytical-engine/**
+*.zip
+*.docx
+*.pdf
