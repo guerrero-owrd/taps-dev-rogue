@@ -8,6 +8,11 @@
 .DS_Store
 Thumbs.db
 
+#Ignore document formats
+*.docx
+*.pdf
+*.pptx
+
 # Quarto / Rmd cache
 *_cache/
 _cache/
