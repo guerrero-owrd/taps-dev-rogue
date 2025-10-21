@@ -12,6 +12,7 @@ Thumbs.db
 *.docx
 *.pdf
 *.pptx
+*.zip
 
 # Quarto / Rmd cache
 *_cache/
