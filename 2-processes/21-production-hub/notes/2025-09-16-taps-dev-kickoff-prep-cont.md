@@ -38,11 +38,12 @@
   - Risk is *limited bandwidth* rather than *total IT blackout*.  
   - Main consequence is delay to automation and statewide datasets, not to PCI-led development (repo scaffolding, PA-Slicer, caveats, manual pilot).
   - **Pivot**: Wihtout IT-TSD snapshots, we shift from pre-launch protocol to single-basin **Rogue pilot** at HUC-10.
-  - **Consequences**: Time/capacity estimates for statewide snapshot production will be speculative if inferred from this manual pilot. 
+  - **Consequences**: Time/capacity estimates for statewide snapshot production will be speculative if inferred from this manual pilot.
   - **Mitigation**: Treat Rogue as a **surrogate**, exercise SW/GW/WR modules with schema mock-ups, and archive frozen
-  inputs externally (e.g., Zenodo/OSF) with non-regulatory banners and a **source non-reproducibility** note. 
+  inputs externally (e.g., Zenodo/OSF) with non-regulatory banners and a **source non-reproducibility** note.
 
 ### Action Flags
+
 - Continue with repo scaffolding, PA-Slicer, and caveat cheat-sheet as planned.
 - Scope and label the manual Rogue Pilot deliverable to manage expectations.
 - Update roadmap milestones to reflect delayed automation, but keep interim PCI-only outputs active.
@@ -51,8 +52,8 @@
 - Draft **schema mock-ups v0.1** (SW/GW/WR) and a minimal data dictionary to emulate future snapshots.
 - Select a **public archive** (e.g., Zenodo/OSF) for frozen inputs and code; include banner + **non-reproducibility note** about data sources.
 
-
 ## Objectives
+
 - Initialize a separate **TAPs development repo** (working name: `taps-dev` or `taps-pilot`) with an IPOM skeleton plus `0-how-to/cheatsheets/`.  
   *[Still valid. No change]*
 - Draft **snapshot caveat cheat-sheet v0.1** (overdue) and a matching template for future runs.  
@@ -67,6 +68,7 @@
   *[New to ensure provenance and clarity]*
 
 ## Agenda (timeboxed total = 180 min)
+
 1. **Open & review carry-overs (40 min)**  
    - Confirm open items and today’s targets.
 
@@ -95,6 +97,7 @@
    - Record staff time for today.
 
 ## Decisions to make today (record in 23-decision-log)
+
 - **Repo name:** `taps-dev` vs `taps-pilot` (Rogue Basin first).
 - **Tech spine:** start minimal vs enable `renv` + Quarto now.
 - **Cheat-sheet scope:** snapshot caveat content and template format.
@@ -110,8 +113,8 @@
 - **Banner & provenance text:** approve “Illustrative Pilot — Not Production Data” + **non-reproducibility note about data sources**.
 - **Low-touch IT tickets:** authorize opening tickets for repo permissions and GH setup only.
 
-
 ## Actions (assign owners and due dates)
+
 - [ ] Create TAPs-dev skeleton (Inputs/Processes/Outputs/Memory + 0-how-to).  
   *Owner: FJG | Due: 2025-09-08*
 - [ ] Draft `0-how-to/cheatsheets/snapshot-caveat.md`.  
@@ -124,6 +127,7 @@
   *Owner: FJG | Due: 2025-09-08*
 
 ### New actions for the surrogate pilot & provenance
+
 - [ ] **Draft schema mock-ups v0.1** (SW/GW/WR) + minimal data dictionary.  
   *Owner: FJG | Due: 2025-09-08*
 - [ ] **Freeze first Rogue public exports** under `1-inputs/raw/YYYY-MM-DD/` and write `.sha256` checksums.  
@@ -139,8 +143,8 @@
 - [ ] **Log 30 min visual scoping** of Rogue HUC-8/10 and gage layout in Staff Time (assisted).  
   *Owner: FJG | Due: 2025-09-08*
 
-
 ## Notes / Constraints
+
 - Keep names short/ASCII to avoid sync drama.
 - Finals live in TAPs-dev `3-outputs`; TAPs-PM remains management-only.
 - Charter guardrails: screening-level, reproducible methods, **not for enforcement**.
@@ -149,8 +153,8 @@
 - **Gage coverage skew** toward upper basin; downstream polygons rely more on NWM. Coverage/representativeness map required.
 - Containerization optional for now; record package versions and environment info in outputs.
 
-
 ## End-of-session outputs (definition of done)
+
 - TAPs-dev folder skeleton exists with basic READMEs.
 - Snapshot caveat cheat-sheet v0.1 saved and template added.
 - **Pilot scope approved** (map stack, coverage/representativeness, ENSO stub).

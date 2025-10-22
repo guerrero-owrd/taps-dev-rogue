@@ -1,19 +1,19 @@
-"category","path","exists","is_dir","size_b","modified"
-"MUST","3-outputs/33-templates",TRUE,TRUE,4096,2025-09-24 10:57:16.565866
-"MUST","0-how-to/cheatsheets",TRUE,TRUE,4096,2025-09-24 10:46:11.16457
-"MUST","2-processes/21-production-hub/notes",TRUE,TRUE,4096,2025-09-16 06:25:50.515572
-"MUST","4-memory",TRUE,TRUE,0,2025-09-09 04:16:22.671398
-"MUST","3-outputs",TRUE,TRUE,4096,2025-09-09 04:16:22.668402
-"MUST","2-processes",TRUE,TRUE,4096,2025-09-09 04:16:22.662271
-"MUST","1-inputs",TRUE,TRUE,0,2025-09-09 04:16:22.653275
-"MUST","2-processes/23-decision-log/decisions.csv",FALSE,FALSE,NA,NA
-"MUST","2-processes/24-risk-register/risk_log.csv",FALSE,FALSE,NA,NA
-"MUST","1-inputs/12-analytical-engine/schedule.csv",FALSE,FALSE,NA,NA
-"MUST","1-inputs/12-analytical-engine/staff_time.csv",FALSE,FALSE,NA,NA
-"SHOULD","0-how-to/cheatsheets/snapshot-caveat.md",TRUE,FALSE,1259,2025-09-24 10:56:21.404085
-"SHOULD","3-outputs/33-templates/snapshot-caveat.md",FALSE,FALSE,NA,NA
-"SHOULD","2-processes/21-production-hub/notes/2025-09-09_session.md",FALSE,FALSE,NA,NA
-"SHOULD","2-processes/21-production-hub/rogue_pilot/scope.md",FALSE,FALSE,NA,NA
-"SHOULD","2-processes/21-production-hub/rogue_pilot/schema_mockups_v0.1.md",FALSE,FALSE,NA,NA
-"SHOULD","2-processes/21-production-hub/rogue_pilot/data_dictionary.md",FALSE,FALSE,NA,NA
-"SHOULD","3-outputs/31-product-store/banner_snippets.md",FALSE,FALSE,NA,NA
+category,path,exists,is_dir,size_b,modified
+MUST,3-outputs/33-templates,TRUE,TRUE,4096,57:16.6
+MUST,0-how-to/cheatsheets,TRUE,TRUE,4096,46:11.2
+MUST,2-processes/21-production-hub/notes,TRUE,TRUE,4096,25:50.5
+MUST,4-memory,TRUE,TRUE,0,16:22.7
+MUST,3-outputs,TRUE,TRUE,4096,16:22.7
+MUST,2-processes,TRUE,TRUE,4096,16:22.7
+MUST,1-inputs,TRUE,TRUE,0,16:22.7
+MUST,2-processes/23-decision-log/decisions.csv,FALSE,FALSE,NA,NA
+MUST,2-processes/24-risk-register/risk_log.csv,FALSE,FALSE,NA,NA
+MUST,1-inputs/12-analytical-engine/schedule.csv,FALSE,FALSE,NA,NA
+MUST,1-inputs/12-analytical-engine/staff_time.csv,FALSE,FALSE,NA,NA
+SHOULD,0-how-to/cheatsheets/snapshot-caveat.md,TRUE,FALSE,1259,56:21.4
+SHOULD,3-outputs/33-templates/snapshot-caveat.md,FALSE,FALSE,NA,NA
+SHOULD,2-processes/21-production-hub/notes/2025-09-09_session.md,FALSE,FALSE,NA,NA
+SHOULD,2-processes/21-production-hub/rogue_pilot/scope.md,FALSE,FALSE,NA,NA
+SHOULD,2-processes/21-production-hub/rogue_pilot/schema_mockups_v0.1.md,FALSE,FALSE,NA,NA
+SHOULD,2-processes/21-production-hub/rogue_pilot/data_dictionary.md,FALSE,FALSE,NA,NA
+SHOULD,3-outputs/31-product-store/banner_snippets.md,FALSE,FALSE,NA,NA
