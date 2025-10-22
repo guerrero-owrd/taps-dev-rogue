@@ -45,4 +45,17 @@ _cache/
 1-inputs/**/*.pdf
 1-inputs/**/*.pptx
 
+# Excluded docs folders
 
+# Ignore contents of any 'excluded-docs' folder, but keep the folder
+# itself
+**/excluded-docs/*
+!**/excluded-docs/.gitkeep
+
+# Explicitly ignore all common document/spreadsheet types inside excluded-docs
+**/excluded-docs/**/*.docx
+**/excluded-docs/**/*.pdf
+**/excluded-docs/**/*.pptx
+**/excluded-docs/**/*.zip
+**/excluded-docs/**/*.xlsx
+**/excluded-docs/**/*.csv
