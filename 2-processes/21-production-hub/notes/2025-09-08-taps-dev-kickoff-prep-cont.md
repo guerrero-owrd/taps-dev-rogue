@@ -116,7 +116,7 @@
   *Owner: FJG | Due: 2025-09-08*
 - [X] Create TAPs-dev GitHub Repository (including .gitignore and folder structure)
   *Owner: FJG | Due: 2025-09-08*
-- [ ] Draft `0-how-to/cheatsheets/snapshot-caveat.md`.  
+- [X] Draft `0-how-to/cheatsheets/snapshot-caveat.md`.  
   *Owner: FJG | Due: 2025-09-08*
 - [ ] Add `3-outputs/33-templates/snapshot-caveat.md` (template file).  
   *Owner: FJG | Due: 2025-09-08*
@@ -161,3 +161,26 @@
 - Banner and **source non-reproducibility** language inserted into templates.(pending)
 - Decisions, risks, schedule updated in TAPs-PM.
 - Staff time recorded; next note (**2025-09-09**) created.(pending)
+
+## Addendum (as of 2025-09-16)
+
+### Status Check Summary
+
+- Completed:
+✅ 3-outputs/33-templates  
+✅ 0-how-to/cheatsheets  
+✅ notes/ (daily notes folder)  
+✅ 4-memory (archive)  
+✅ 3-outputs (final artifacts area)
+  
+- Pending:
+❗ decisions.csv (canonical)  
+❗ risk_log.csv (canonical)  
+❗ schedule.csv (canonical)  
+❗ staff_time.csv (canonical)  
+➖ 3-outputs/33-templates/snapshot-caveat.md
+
+### Next steps
+
+- Create missing MUST artifacts immediately; log decision and schedule impact.
+- Proceed to `surface_water/` initialization following single-repo model.
