@@ -28,15 +28,21 @@ _cache/
 !2-processes/21-production-hub/reports/README.md
 
 # Inputs handling
-# Ignore bulky raw data dumps or heavy documents, but keep reproducible 
-# code + .md files
+# Ignore all contents of 1-inputs by default
 1-inputs/**
+
+# Re-include folder structure and reproducible content
 !1-inputs/
 !1-inputs/11-knowledge-base/
 !1-inputs/11-knowledge-base/**
 !1-inputs/12-analytical-engine/
 !1-inputs/12-analytical-engine/**
-*.zip
-*.docx
-*.pdf
-*.pptx
+
+# But ignore heavy or non-reproducible file types even in included
+# folders
+1-inputs/**/*.zip
+1-inputs/**/*.docx
+1-inputs/**/*.pdf
+1-inputs/**/*.pptx
+
+

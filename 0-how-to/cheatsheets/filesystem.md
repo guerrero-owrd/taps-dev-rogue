@@ -12,7 +12,9 @@ Stores core instructions about "how-to" create repo settings in a reproducible w
 ## 1-inputs
 
 - **11-knowledge-base**  
-  Store reference docs: project charter, appendices, PBP rule insights.  
+  Store reference docs: project charter, appendices, PBP rule insights.
+  `excluded-docs/`folder: holds untracked reference materials (logged
+  via .git/hooks; not committed)
   *Tip:* add a one-line context note when adding a file (why it matters).
 - **12-analytical-engine**  
   Simple tables for tracking: schedule, RACI, staff-time.  
