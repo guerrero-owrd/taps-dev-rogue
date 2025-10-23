@@ -1,3 +1,8 @@
+# Git LFS (Large File Storage) tracks large or binary files outside 
+# the main Git history to keep repositories fast and lightweight.
+
+# .gitattributes for Git LFS tracking of large/binary files
+
 # --- Documents you don't diff anyway
 *.pdf  filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
