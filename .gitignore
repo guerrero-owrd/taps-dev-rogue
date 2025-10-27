@@ -13,6 +13,7 @@ Thumbs.db
 *.pdf
 *.pptx
 *.zip
+*.ini
 
 # Quarto / Rmd cache
 *_cache/
