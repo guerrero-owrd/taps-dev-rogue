@@ -1,0 +1,88 @@
+# Sidecar metadata template for TAPs dev-repo tech notes
+# Pairing rule:
+# - Note file: YYYY-MM-DD_slug.md
+# - Metadata:  YYYY-MM-DD_slug.meta.yml
+# - The .meta.yml must live next to the .md note and use the same basename.
+#
+# Purpose:
+# - Authoritative structured metadata record for technical notes stored in `taps-dev-rogue`
+# - Supports indexing, cross-links, scope tracking, and reconciliation with `taps-proj-mgmt`
+# - Keep the paired .md tech note YAML-free
+#
+# Required scalar fields:
+# - tech_note_id: TN-YYYYMMDD-###
+# - date: YYYY-MM-DD
+# - related_mgmt_session_id: cgpt-taps-###
+# - related_scope_id: TS-YYYYMMDD-###
+# - session_mode: solo | coordination | review
+# - status: draft | in_review | stable | deprecated
+# - retention: working | permanent | archival
+# - logged_mode: on-time | retrospective
+# - extraction_confidence: low | med | high
+#
+# Required list fields:
+# - topic_tags
+# - ai_touchpoints
+# - related_decisions
+# - related_risks
+# - related_staff_time
+# - linked_commits
+# - linked_mgmt_notes
+# - linked_outputs
+# - linked_tracking_entries
+#
+# ID conventions:
+# - Tech note: TN-YYYYMMDD-###
+# - Scope note: TS-YYYYMMDD-###
+# - Decisions: D-YYYYMMDD-###
+# - Risks: R-YYYYMMDD-###
+# - Staff time: ST-YYYYMMDD-###
+#
+# List rules:
+# - Use YAML lists with one item per line.
+# - Use [] for none / not applicable.
+# - Prefer controlled vocabulary for topic_tags and ai_touchpoints.
+#
+# linked_commits guidance:
+# - Use short hashes only unless repo standard changes.
+# - Remove duplicates before final save.
+# - Commit descriptions belong in the .md tech note or commit log, not here.
+#
+# linked_tracking_entries guidance:
+# - Use local tracking IDs from `tech-tracking/`, for example:
+#   - TC-YYYYMMDD-###
+#   - TE-YYYYMMDD-###
+#   - TW-YYYYMMDD-###
+#
+# session_timeline_local guidance:
+# - Optional but recommended for multi-block or resumed technical sessions.
+# - Use an ordered list of one-key entries, for example:
+#   - start: 2026-04-22 17:20
+#   - pause: 2026-04-22 18:05
+#   - restart: 2026-04-22 18:20
+#   - end: 2026-04-22 19:40
+
+tech_note_id: ""
+date: ""
+related_mgmt_session_id: ""
+related_scope_id: ""
+session_mode: ""
+status: ""
+retention: ""
+
+topic_tags: []
+ai_touchpoints: []
+
+related_decisions: []
+related_risks: []
+related_staff_time: []
+
+linked_commits: []
+linked_mgmt_notes: []
+linked_outputs: []
+linked_tracking_entries: []
+
+logged_mode: ""
+extraction_confidence: ""
+
+session_timeline_local: []
