@@ -60,3 +60,6 @@ _cache/
 **/excluded-docs/**/*.zip
 **/excluded-docs/**/*.xlsx
 **/excluded-docs/**/*.csv
+
+# Raw data and intermediate files
+z-sandbox/
