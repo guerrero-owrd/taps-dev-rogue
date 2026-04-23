@@ -1,0 +1,1 @@
+entry_id,date,week_start,week_end,scope_id,related_mgmt_session_id,related_mgmt_note,related_tech_note,topic,issue_summary,trigger_type,why_escalated,affected_files,affected_outputs,recommended_mgmt_follow_up,promote_to_decision,promote_to_risk,linked_commit,status,logged_mode
