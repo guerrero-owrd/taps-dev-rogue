@@ -3,6 +3,7 @@
 **Purpose:** milestones, burndowns, and timelines tied to staff-hour caps.
 
 ## Milestones (pilot → production)
+
 1a. Prototype snapshots v0.0 ready — Lead: TSD — Target: Aug–Sept 2025  
 2.  PA-Slicer coded & tested — Lead: PCI — Target: Sep 2025  
 3.  Rogue River pilot TAP drafted — Lead: PCI — Target: Jan 2026  
